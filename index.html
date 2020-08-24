@@ -14,16 +14,17 @@
 
 	<header id="header">
 		<a id="home-link" href="index.html">
-		<div id="header-brand">
-			<i id="header-img" class="fas fa-pepper-hot brand-highlight"></i>
-			<span id="brand">Chilli<span class="brand-highlight">shack</span></span>
-		</div>
+			<div id="header-brand">
+				<i id="logo" class="fas fa-pepper-hot brand-highlight"></i>
+				<span id="brand">Chilli<span class="brand-highlight">shack</span></span>
+			</div>
 		</a>
 
 		<nav id="nav-bar">
 			<span><a class="nav-link" href="#video">Shop</a></span>
-			<span><a class="nav-link" href="#recipes">Recipes</a></span>
+			<span><a class="nav-link" href="#reviews">Reviews</a></span>
 			<span><a class="nav-link" href="#form-div">Newsletter</a></span>
+			<img id="header-img" src="img\cart.png" alt="shopping cart icon">
 		</nav>
 	</header>
 
@@ -39,60 +40,88 @@
 
 			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/PbG2RuQsAO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>	
 			</iframe>
-		
+				
 		<h2 id="shop">Chilli Shop</h2>
-
+		<hr>
 			<div id="shop-grid">
-				<div id="shop-item">
-					<img src="">
+				
+				<div class="shop-item">
+					<img class="item-img" src="img\products\dried.jpg" alt="closeup of dried red chillis">
+					<p class="item-title">Dried Red Chillis</p>
+					<p class="item-desc">The finest dried red chillis from Mexico, ready to add punch to any dish. Can be safely stored in an old boot for up to 200 years.</p>
+					<hr>
+					<strong><span class="item-price">$8.49</span></strong>
+					<button class="buy-btn">Add to cart</button>
+				</div>
+				
+				<div class="shop-item">
+					<img class="item-img" src="img\products\fresh.jpg" alt="carton of cfresh chillis of different types and colours">
+					<p class="item-title">Mixed fresh Chillis</p>
+					<p class="item-desc">A medley of the worlds tastiest and most fiery chillis, delivered direct to you in a fire-proof 1kg box. Don't blame us when your face melts!</p>
+					<hr>
+					<strong><span class="item-price">$14.99</span></strong>
+					<button class="buy-btn">Add to cart</button>
+				</div>
+				
+				<div class="shop-item">
+					<img class="item-img" src="img\products\plant.jpg" alt="closeup of a chilli plant with lots of red and yellow chillis">
+					<p class="item-title">Mature Chilli Plant</p>
+					<p class="item-desc">We've done the hard work for you and reared a batch of our famous <strong><em>Absolute Destruction</em></strong> chilli plants for you to nurture at home. </p>
+					<hr>
+					<strong><span class="item-price">$34.99</span></strong>
+					<button class="buy-btn">Add to cart</button>
+				</div>
 
-					<video controls width="" src="https://archive.org/download/DriedGreenChilliManufacturersAndExporters/Dried%20Green%20Chilli%20Manufacturers%20and%20Exporters.mp4">
-				Sorry, your browser doesn't support embedded videos.
-			</video>
-					<p>Dried Green Chillis</p>
-					<p>Price</p>
+				<div class="shop-item">
+					<img class="item-img" src="img\products\toothpaste.jpg" alt="closeup of red toothpaste being squeezed onto a brush">
+					<p class="item-title">Chilli Toothepaste</p>
+					<p class="item-desc">Do you love chillis so much that they are the first thing you think of in the morning and the last thing before falling asleep at night?</p>
+					<hr>
+					<strong><span class="item-price">$4.99</span></strong>
+					<button class="buy-btn">Add to cart</button>
 				</div>
-				<div id="shop-item">
-					<img src="">
-					<p>Fresh Chillis</p>
-					<p>Price</p>
+				
+				<div class="shop-item">
+					<img class="item-img" src="img\products\hat.jpg" alt="funny photo of mans face showing out of novelty chilli hat">
+					<p class="item-title">Chilli Hat</p>
+					<p class="item-desc">The perfect accessory to finish any outfit. Edgy yet classic, warm in winter and cool in summer. Woven from the finest chilli yarn.</p>
+					<hr>
+					<strong><span class="item-price">$589.99</span></strong>
+					<button class="buy-btn">Add to cart</button>
 				</div>
-				<div id="shop-item">
-					<img src="">
-					<p>Chilli Plants</p>
-					<p>Price</p>
+
+				<div class="shop-item">
+					<img class="item-img" src="img\products\redhot.jpg" alt="Red Hot Chilli Pepper (band) logo in faded vintage style">
+					<p class="item-title">Red Hot Chilli Peppers</p>
+					<p class="item-desc">A week on tour with the Chillis. Find out first hand why some people say that Flea's legendary pickled chillis make you immortal.</p>
+					<hr>
+					<strong><span class="item-price">$0.99</span></strong>
+					<button class="buy-btn">Add to cart</button>
 				</div>
-				<div id="shop-item">
-					<img src="">
-					<p>Chilli Sculpture (large)</p>
-					<p>Price</p>
-				</div>
-				<div id="shop-item">
-					<img src="">
-					<p>Chilli Toothpaste</p>
-					<p>Price</p>
-				</div>
-				<div id="shop-item">
-					<img src="">
-					<p>T-Shirts</p>
-					<p>Price</p>
-				</div>
+
 			</div>
-			
-			
-			<!-- <video controls width="560" src="https://archive.org/download/DriedGreenChilliManufacturersAndExporters/Dried%20Green%20Chilli%20Manufacturers%20and%20Exporters.mp4">
-				Sorry, your browser doesn't support embedded videos.
-			</video> -->
-
-		<h2 id="recipes">Recipes</h2>
-
 		
+			
+		<h2 id="reviews">Customer Reviews</h2>
+		<hr>
+		<div id="review-grid">
+				
+				<div class="shop-item">
+					<img class="item-img" src="img\products\dried.jpg" alt="closeup of dried red chillis">
+					<p class="item-title">Barry from Barnstable</p>
+					<p class="item-desc">"I love these guys!!!"</p>
+					<hr>
+					<strong><span class="item-price">$8.49</span></strong>
+					<button class="buy-btn">Add to cart</button>
+				</div>
+		<div>		
+				
 	</main>
 
 	<div id="form-div">
-		<form id="form" action="https://www.freecodecamp.org/email-submit" target="_blank">
+		<form id="form" action="https://www.freecodecamp.org/email-submit" method="POST" target="_blank">
 			<div id="label-block">
-				<label for="email">JOIN OUR SUBSCRIBERS AND GET EXCLUSIVE ACCESS TO FREEBIES AND NEWS</label>
+				<label for="email">JOIN OUR EMAIL LIST AND GET EXCLUSIVE ACCESS TO FREEBIES AND NEWS</label>
 			</div>
 			<div id="email-block">
 				<input id="email" type="email" name="email" placeholder="Enter your email address">
@@ -103,6 +132,8 @@
 
 	<footer>
 		<p>Created in vanilla HTML and CSS by <a href="https://github.com/MakeItBack" target="_blank">MakeItBack</a></p>
+		<br>
+		<p>Icon by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
 	</footer>
 
 </body>

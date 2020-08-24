@@ -35,7 +35,7 @@ body			{
 
 .brand-highlight {color: red;}
 
-#header-img		{
+#logo			{
 				font-size: 40px;
 				color: red;
 				width: 75px;
@@ -56,6 +56,11 @@ body			{
 				}
 
 .nav-link:hover {color: orange;}
+
+#header-img		{height: 30px;
+				float: right;
+				display: inline-block;}
+
 
 main 			{
 				max-width: 1000px;
@@ -88,21 +93,59 @@ h2				{text-align: center;
 
 #shop-grid		{display: flex;
 				flex-direction: row;
-				justify-content: space-between;
+				justify-content: space-around;
 				width: 100%;
-				background: orange;
+				/*background: grey;*/
 				flex-wrap: wrap;
 				}
 
-#shop-item		{
-				height: 200px;
-				width: 30%;
-				background: darkgrey;
+.shop-item		{
+				height: auto;
+				min-width: 200px;
+				max-width: 275px;
+				margin: 10px;
+				background: white;
+				border: 2px solid dimgrey;
+				border-radius: 10px;
+				display: inline-block;
+				padding: 15px;
+				box-shadow: 0 0 10px;
 				}
 
-video			{max-width: 100%;}
+.item-img		{
+				max-width: 100%;
+				}
 
-form			{
+.item-title		{
+				font-size: 20px;
+				color: red;
+				}
+
+.item-desc		{
+				width: 100%;
+				}
+
+.item-price		{
+				font-size: 20px;
+				float: left;
+				color: darkgreen;
+				}
+
+.buy-btn		{padding: 8px;
+				background: black;
+				/*border-radius: 5px;*/
+				color: white;
+				float: right;
+				border: none;
+				}
+
+.buy-btn:hover	{background: darkgreen;}
+
+
+video			{max-width: 100%;
+				display: inline-block;}
+
+#form			{
 				height: 100%;
 				width: 100%;
 				max-width: 1000px;
