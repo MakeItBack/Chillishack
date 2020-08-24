@@ -7,53 +7,103 @@
 		
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="icon" href="img/favicon.ico">
-	<title></title>
+	<title>Chillishack</title>
 </head>
 <body>
 	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 	<header id="header">
-		<div id="header-brand"> 
-			<i id="header-img" class="fas fa-pepper-hot"></i>
-			<span id="brand">Chillishack</span>
+		<a id="home-link" href="index.html">
+		<div id="header-brand">
+			<i id="header-img" class="fas fa-pepper-hot brand-highlight"></i>
+			<span id="brand">Chilli<span class="brand-highlight">shack</span></span>
 		</div>
-		
+		</a>
+
 		<nav id="nav-bar">
-			<span><a class="nav-link" href="#shop">Shop</a></span>
+			<span><a class="nav-link" href="#video">Shop</a></span>
 			<span><a class="nav-link" href="#recipes">Recipes</a></span>
-			<span><a class="nav-link" href="#newsletter">Newsletter</a></span>
-			<span><a class="nav-link" href="#links">Links</a></span>
+			<span><a class="nav-link" href="#form-div">Newsletter</a></span>
 		</nav>
 	</header>
 
 	<main>
-		<h1>Welcome to Chillishack!</h1>
+		
+		<div id="page-title"> 
+			<h1>Welcome to </h1>
+			<h1><i class="fas fa-pepper-hot logo brand-highlight"></i><span> Chilli<span class="brand-highlight">shack</span></span></h1>
+		</div>
 
-		<h2 id="video">Feel the Burn!</h2>
 
-			<video id="video" controls width="500" src="https://archive.org/download/DriedGreenChilliManufacturersAndExporters/Dried%20Green%20Chilli%20Manufacturers%20and%20Exporters.mp4">
+		<h2>Feel the Burn!</h2>
+
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/PbG2RuQsAO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>	
+			</iframe>
+		
+		<h2 id="shop">Chilli Shop</h2>
+
+			<div id="shop-grid">
+				<div id="shop-item">
+					<img src="">
+
+					<video controls width="" src="https://archive.org/download/DriedGreenChilliManufacturersAndExporters/Dried%20Green%20Chilli%20Manufacturers%20and%20Exporters.mp4">
 				Sorry, your browser doesn't support embedded videos.
 			</video>
-
-		<h2 id="shop">Shop</h2>
+					<p>Dried Green Chillis</p>
+					<p>Price</p>
+				</div>
+				<div id="shop-item">
+					<img src="">
+					<p>Fresh Chillis</p>
+					<p>Price</p>
+				</div>
+				<div id="shop-item">
+					<img src="">
+					<p>Chilli Plants</p>
+					<p>Price</p>
+				</div>
+				<div id="shop-item">
+					<img src="">
+					<p>Chilli Sculpture (large)</p>
+					<p>Price</p>
+				</div>
+				<div id="shop-item">
+					<img src="">
+					<p>Chilli Toothpaste</p>
+					<p>Price</p>
+				</div>
+				<div id="shop-item">
+					<img src="">
+					<p>T-Shirts</p>
+					<p>Price</p>
+				</div>
+			</div>
+			
+			
+			<!-- <video controls width="560" src="https://archive.org/download/DriedGreenChilliManufacturersAndExporters/Dried%20Green%20Chilli%20Manufacturers%20and%20Exporters.mp4">
+				Sorry, your browser doesn't support embedded videos.
+			</video> -->
 
 		<h2 id="recipes">Recipes</h2>
 
-		<h2 id="newsletter">Newsletter Signup</h2>
-			<form id="form">
-				<div>
-					<label for="email">Sign up to our newsletter</label>
-					<input id="email" type="email" name="" placeholder="Enter your email address">
-				</div>
-				<div>
-					<input id="submit" type="submit" name="submit">
-				</div>
-			</form>
-
-		<h2 id="testimonials">Testimonials</h2>
-
-
+		
 	</main>
+
+	<div id="form-div">
+		<form id="form" action="https://www.freecodecamp.org/email-submit" target="_blank">
+			<div id="label-block">
+				<label for="email">JOIN OUR SUBSCRIBERS AND GET EXCLUSIVE ACCESS TO FREEBIES AND NEWS</label>
+			</div>
+			<div id="email-block">
+				<input id="email" type="email" name="email" placeholder="Enter your email address">
+				<input id="submit" type="submit" name="submit" value="SUBMIT">
+			</div>
+		</form>
+	</div>
+
+	<footer>
+		<p>Created in vanilla HTML and CSS by <a href="https://github.com/MakeItBack" target="_blank">MakeItBack</a></p>
+	</footer>
 
 </body>
 </html>
