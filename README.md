@@ -1,6 +1,7 @@
 # Chillishack
 **A product landing page, created for a fictional chilli emporium.**<br>
 A project built as part of the *Responsive Web Design* course (freeCodeCamp).
+
 Chillishack uses CSS flexbox, google fonts, font awesome and embedded video.
 
 [Deployed](https://chillishack.netlify.app/) with Netlify
