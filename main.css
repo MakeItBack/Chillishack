@@ -65,12 +65,13 @@ body			{
 main 			{
 				max-width: 1000px;
 				margin: 0 auto;
-				padding: 100px 50px;
+				padding: 120px 0;
 				}
 
 h1				{
-				display: inline;
+				display: inline-block;
 				font-size: 50px;
+				margin: 0 10px 10px 10px;
 				}
 
 h1 span 		{font-family: 'Pacifico', cursive;}
@@ -89,29 +90,30 @@ h2				{text-align: center;
 #video			{max-width: 100%;
 				max-height: 100%;
 				margin: 0 auto;
-				display: block;}
+				display: block;
+				border-radius: 5px;}
 
 #shop-grid		{display: flex;
 				flex-direction: row;
 				justify-content: space-around;
 				width: 100%;
-				/*background: grey;*/
 				flex-wrap: wrap;
 				}
 
 .shop-item		{
 				height: auto;
 				min-width: 200px;
-				max-width: 275px;
+				max-width: 400px;
+				flex: 1 1 275px;
 				margin: 10px;
 				background: white;
 				border: 2px solid dimgrey;
-				border-radius: 10px;
+				border-radius: 5px;
 				display: inline-block;
 				padding: 15px;
 				box-shadow: 0 0 10px;
 				}
-
+				
 .item-img		{
 				max-width: 100%;
 				}
@@ -133,7 +135,7 @@ h2				{text-align: center;
 
 .buy-btn		{padding: 8px;
 				background: black;
-				/*border-radius: 5px;*/
+				border-radius: 3px;
 				color: white;
 				float: right;
 				border: none;
@@ -141,9 +143,54 @@ h2				{text-align: center;
 
 .buy-btn:hover	{background: darkgreen;}
 
+#review-grid	{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				width: 100%;
+				flex-wrap: wrap;
+				}
 
-video			{max-width: 100%;
-				display: inline-block;}
+.review-card	{
+				height: auto;
+				min-width: 200px;
+				max-width: 600px;
+				flex: 1 1 440px;
+				margin: 10px;
+				background: white;
+				border: 1px solid dimgrey;
+				border-radius: 3px;
+				display: inline-block;
+				padding: 10px 15px;
+				box-shadow: 0 0 3px;
+				}
+
+.review			{
+				max-width: 70%;
+				float: left;
+				display: inline-block;
+				}
+
+.review-text	{
+				font-size: 1.2em;
+				display: inline-block;
+				text-align: center;
+				margin: 15px 5px 5px 5px;
+				}
+
+.review-pic		{
+				width: 20%;
+				border-radius: 50%;
+				border: 1px solid black;
+				display: inline-block;
+				float: right;
+				}
+
+.review-name	{
+				text-align: right;
+				color: dimgrey;
+				margin: auto 15px 5px 0;
+				}
 
 #form			{
 				height: 100%;
@@ -151,6 +198,7 @@ video			{max-width: 100%;
 				max-width: 1000px;
 				background: orange;
 				margin: 0 auto;
+				border-radius: 0 0 5px 5px;
 				display: flex;
 				flex-direction: row;
 				justify-content: space-between;
@@ -189,6 +237,7 @@ form label 		{
 				width: 300px;
 				margin: 0;
 				border: none;
+				border-radius: 3px 0 0 3px;
 				padding: 0 0 0 15px;
 				}
 
@@ -204,11 +253,14 @@ form label 		{
 				color: white;
 				font-size: 16px;
 				border: none;
+				border-radius: 0 3px 3px 0;
 				display: inline-block;
 				margin: 0;
 				border: none;
 				padding: 0;
 				}
+
+#submit:hover	{background: darkgreen;}
 
 footer			{
 				width: 100%;
@@ -218,7 +270,6 @@ footer			{
 				text-align: right;
 				text-decoration: none;
 				margin-top: 0;
-
 				}
 
 footer a 		{color: orange;}
@@ -242,12 +293,14 @@ footer p 		{
 							
 							#email-block	{
 											display: flex;
-											justify-content: center;
+											justify-content: start;
+											flex-direction: row;
 											width: 80%;
 											height: 40%;
-											}
+											padding: 0 10%;
+											}									
 
-							#email 			{width: 700px;}
+							#email 			{flex-grow: 1;}				
 
 							#submit			{flex-shrink: 0;}
 							
@@ -261,7 +314,11 @@ footer p 		{
 							}
 
 @media (max-width: 650px){
-							form label 		{
-											font-size: 25px;
-											}  
+							form label 		{font-size: 25px;}
+
+							.nav-link		{font-size: 1em;}  
+
+							h1				{font-size: 40px;}
+
+							
 							}
