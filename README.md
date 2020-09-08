@@ -4,7 +4,7 @@ A project built as part of the *Responsive Web Design* course (freeCodeCamp).
 
 Chillishack uses CSS flexbox, google fonts, font awesome and embedded video.
 
-[Chillishack screenshot](https://github.com/MakeItBack/Chillishack/blob/master/chillishack.gif)
+![Chillishack screenshot](https://github.com/MakeItBack/Chillishack/blob/master/chillishack.gif)
 
 [Deployed](https://chillishack.netlify.app/) with Netlify
 
