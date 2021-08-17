@@ -347,8 +347,10 @@ footer p {
       height: 100px;
    }
    #home-link {
-      float: left;
       display: block;
+   }
+   #header-brand {
+      margin: 0 auto;
    }
    #nav-bar {
       width: 100%;
