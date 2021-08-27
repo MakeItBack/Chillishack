@@ -11,7 +11,7 @@ Chillishack uses CSS flexbox, google fonts, font awesome and embedded video.
 
 ### Visit Live Site
 
-This branch is [deployed on GitHub Pages](https://makeitback.github.io/Chillishack/)
+This branch is [deployed on GitHub Pages](https://makeitback.github.io/Chillishack/) and incorporates the test script for freeCodeCamp (all tests passing!)
 
 ---
 
